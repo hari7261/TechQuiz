@@ -1,0 +1,249 @@
+{
+    "data": [
+        {
+            "language": "react",
+            "mcqData": [
+                {
+                    "type": "multiple",
+                    "question": "Which of the following is the correct name of React.js?",
+                    "choices": ["React", "React.js", "ReactJS", "All of the above"],
+                    "answer": "All of the above"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following command is used to install create-react-app?",
+                    "choices": [
+                        "npm install -g create-react-app",
+                        "npm install create-react-app",
+                        "npm install -f create-react-app",
+                        "stall -g create-react-app"
+                    ],
+                    "answer": "npm install -g create-react-app"
+                },
+                {
+                    "type": "multiple",
+                    "question": "What of the following is used in React.js to increase performance?",
+                    "choices": [
+                        "Original DOM",
+                        "Virtual DOM",
+                        "Both A and B.",
+                        "None of the above."
+                    ],
+                    "answer": "Virtual DOM"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following acts as the input of a class-based component?",
+                    "choices": ["Class", "Factory", "Render", "Props"],
+                    "answer": "Props"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following keyword is used to create a class inheritance?",
+                    "choices": ["Create", "Inherits", "Extends", "This"],
+                    "answer": "Extends"
+                },
+                {
+                    "type": "multiple",
+                    "question": "What method in React is used to change the state of a component?",
+                    "choices": ["setState()", "setComponent()", "changeState()", "updateComponent()"],
+                    "answer": "setState()"
+                },
+                {
+                    "type": "multiple",
+                    "question": "What is JSX?",
+                    "choices": [
+                        "A syntax extension for JavaScript",
+                        "A template engine",
+                        "A tool for optimizing JavaScript",
+                        "A library for data management"
+                    ],
+                    "answer": "A syntax extension for JavaScript"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following is NOT a React hook?",
+                    "choices": ["useEffect", "useState", "useReducer", "useListener"],
+                    "answer": "useListener"
+                },
+                {
+                    "type": "multiple",
+                    "question": "React components are primarily written in:",
+                    "choices": ["HTML", "CSS", "JSX", "Java"],
+                    "answer": "JSX"
+                },
+                {
+                    "type": "multiple",
+                    "question": "What is the default port where the React development server runs?",
+                    "choices": ["3000", "8000", "8080", "5000"],
+                    "answer": "3000"
+                }
+            ]
+        },
+        {
+            "language": "typescript",
+            "mcqData": [
+                {
+                    "type": "multiple",
+                    "question": "TypeScript was introduced in the year of",
+                    "choices": ["2011", "2012", "2014", "2022"],
+                    "answer": "2012"
+                },
+                {
+                    "type": "multiple",
+                    "question": "What are the built-in types in Typescript?",
+                    "choices": [
+                        "Number type",
+                        "Boolean type",
+                        "Null type",
+                        "All of these"
+                    ],
+                    "answer": "All of these"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Can a typescript be installed or managed through?",
+                    "choices": ["Void", "VSpace", "Nmp", "Tag"],
+                    "answer": "Tag"
+                },
+                {
+                    "type": "multiple",
+                    "question": "..... are the way to organize code in typescript.",
+                    "choices": ["Modules", "Classes", "Method", "Arrow"],
+                    "answer": "Modules"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following is the typing principle of typescript?",
+                    "choices": [
+                        "Gradual",
+                        "Dynamic",
+                        "Duck",
+                        "All of the above"
+                    ],
+                    "answer": "All of the above"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which is the correct extension for TypeScript files?",
+                    "choices": [".ts", ".tsx", ".tscript", ".js"],
+                    "answer": ".ts"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following is true about TypeScript?",
+                    "choices": [
+                        "It is a superset of JavaScript",
+                        "It can be used to build large applications",
+                        "It provides optional static typing",
+                        "All of the above"
+                    ],
+                    "answer": "All of the above"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following is NOT a valid TypeScript type?",
+                    "choices": ["number", "void", "char", "undefined"],
+                    "answer": "char"
+                },
+                {
+                    "type": "multiple",
+                    "question": "What is the TypeScript compiler command?",
+                    "choices": ["tsc", "ts", "tcompile", "typescriptc"],
+                    "answer": "tsc"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following can be used to define a variable type in TypeScript?",
+                    "choices": ["var", "const", "let", "All of the above"],
+                    "answer": "All of the above"
+                }
+            ]
+        },
+        {
+            "language": "json",
+            "mcqData": [
+                {
+                    "type": "multiple",
+                    "question": "Which of the following isn't a JSON type?",
+                    "choices": ["String", "Object", "Array", "All of the above"],
+                    "answer": "Array"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which is the file extension of JSON?",
+                    "choices": [".jsn", ".json", ".jjsn", ".js"],
+                    "answer": ".json"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Is whitespace matter in JSON?",
+                    "choices": [
+                        "No, it will be stripped out.",
+                        "Yes, both inside and outside of strings",
+                        "Yes, only within strings",
+                        "Yes, only outside of strings"
+                    ],
+                    "answer": "Yes, only within strings"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Who is the creator of JSON ?",
+                    "choices": [
+                        "Sergey Brin",
+                        "Douglas Crockford",
+                        "Liam Crockford",
+                        "None of these"
+                    ],
+                    "answer": "Douglas Crockford"
+                },
+                {
+                    "type": "multiple",
+                    "question": "which of the following isn't create the object?",
+                    "choices": [
+                        "Object literals",
+                        "Constructors",
+                        "Object.create",
+                        "Object Construct"
+                    ],
+                    "answer": "Object.create"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following is the MIME type of JSON?",
+                    "choices": ["application/json", "text/json", "application/jsn", "text/jsn"],
+                    "answer": "application/json"
+                },
+                {
+                    "type": "multiple",
+                    "question": "In JSON, how do you represent an array?",
+                    "choices": ["[]", "{}", "()", "<>"],
+                    "answer": "[]"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Which of the following is NOT true about JSON?",
+                    "choices": [
+                        "JSON is language-independent",
+                        "JSON uses name/value pairs",
+                        "JSON supports comments",
+                        "JSON is a lightweight data interchange format"
+                    ],
+                    "answer": "JSON supports comments"
+                },
+                {
+                    "type": "multiple",
+                    "question": "What data format does JSON closely resemble?",
+                    "choices": ["XML", "JavaScript Objects", "HTML", "CSV"],
+                    "answer": "JavaScript Objects"
+                },
+                {
+                    "type": "multiple",
+                    "question": "Can JSON support complex data structures like nested objects?",
+                    "choices": ["Yes", "No"],
+                    "answer": "Yes"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,165 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e2f;
+    color: #fff;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for Quiz Components */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card Styling */
+.card {
+    background: #27293d;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.card-header {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #00f7ff;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.card-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+.card-content p {
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+button {
+    background: linear-gradient(45deg, #00f7ff, #03a9f4);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #03a9f4, #00f7ff);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effects */
+.answer:hover {
+    background-color: #03a9f4;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Selected Option Styling */
+.selected {
+    background-color: #03a9f4;
+    color: white;
+}
+
+/* Loader Style */
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader img {
+    width: 80px;
+    height: 80px;
+    animation: rotate 1.2s infinite linear;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Result Page Styling */
+.result-page {
+    text-align: center;
+}
+
+.result-page h2 {
+    font-size: 2rem;
+    color: #00f7ff;
+}
+
+.result-page p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/* 404 Page Styling */
+.error-page {
+    font-size: 2rem;
+    color: #ff1744;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-header {
+        font-size: 1.5rem;
+    }
+
+    .card-content {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+}
