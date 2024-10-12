@@ -3,7 +3,7 @@
 
 Welcome to the **Quiz App**, an engaging platform that tests your knowledge through a series of multiple-choice questions across various topics! 🧠✨ Whether you're a trivia buff or just looking to challenge yourself, this app is for you!
 
-![Quiz App](https://example.com/quiz-app-image.jpg) <!-- Replace with a relevant image link -->
+
 
 ---
 
